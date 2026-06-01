@@ -1,0 +1,16 @@
+{
+  "name": "maticaw-source-code-for-cto",
+  "version": "1.0.0",
+  "description": "Clean Hardhat workspace for reviewing and repairing the Maticaws ERC-721 CTO source dump.",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "4.8.3",
+    "hardhat": "^2.22.19"
+  }
+}
